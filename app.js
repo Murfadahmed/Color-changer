@@ -29,7 +29,7 @@ sipmle.addEventListener('click', () => {
     buttonChanger.addEventListener('click', () => {
 
         let Random = (Math.ceil(Math.random() * Colors.length) -1)
-        console.log(Random)
+//         console.log(Random)
         backGround.style.backgroundColor = Colors[Random]
         headingChanged.textContent = Colors[Random]
 
